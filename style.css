@@ -1,47 +1,59 @@
-.menu{
-    display: grid;
+body {
+  background-color: rgb(244, 241, 226);
+  font-family: Arial, sans-serif;
 }
-.container{
-    display: flex;
-    background-color: rgba(239, 235, 234, 0.625);
-    color: black;
-    
-}
-li{
-    list-style: none;
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    
-}
-body{
-    background-color: rgb(244, 241, 226);
-}
-a{
-    text-decoration: none;
-    list-style: none;
-    color: black;
-}
-.navbar {
-      background-color: #e3dbcd; 
-}
-    .navbar-brand img {
-      height: 40px;
-}
-.img{
-    text-align: center;
-}
-h3{
-    font-size: 17px;
-    text-align: center;
-    color: black;
-}
-h1{
-    font-size: 17px;
-    text-align: center;
-    color: black;
 
+.navbar {
+  background-color: #e3dbcd;
+  text-align: center;
 }
-.navbar{
-    text-align: center;
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.nav-link {
+  color: black !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #dc3545 !important;
+}
+
+.img {
+  text-align: center;
+}
+
+h1, h3 {
+  text-align: center;
+  color: black;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+.container {
+  background-color: rgba(239, 235, 234, 0.625);
+  color: black;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
 }

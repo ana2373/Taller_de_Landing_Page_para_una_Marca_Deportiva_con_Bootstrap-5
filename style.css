@@ -1,0 +1,47 @@
+.menu{
+    display: grid;
+}
+.container{
+    display: flex;
+    background-color: rgba(239, 235, 234, 0.625);
+    color: black;
+    
+}
+li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    
+}
+body{
+    background-color: rgb(244, 241, 226);
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.navbar {
+      background-color: #e3dbcd; 
+}
+    .navbar-brand img {
+      height: 40px;
+}
+.img{
+    text-align: center;
+}
+h3{
+    font-size: 17px;
+    text-align: center;
+    color: black;
+}
+h1{
+    font-size: 17px;
+    text-align: center;
+    color: black;
+
+}
+.navbar{
+    text-align: center;
+}
